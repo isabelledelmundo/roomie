@@ -1,0 +1,39 @@
+h1{
+  text-align: center;
+  background: #ff533d
+}
+h2 {
+  background: #caebf2
+}
+div {
+    display: block;
+}
+#wrapper {
+    width: 625px;
+    height:486px;
+}
+
+#info {
+	float: left;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    background: #caebf2;
+    font-size: 20px
+    }
+#feed {
+	float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background: #c4c4c4;
+    font-size: 20px
+    }
+#menu {
+	float: left;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    background: #caebf2;
+    font-size: 20px
+    }
