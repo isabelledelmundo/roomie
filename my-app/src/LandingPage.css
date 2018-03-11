@@ -1,0 +1,65 @@
+h1{
+  text-align: center;
+  background: #ff533d
+}
+h2 {
+  background: #caebf2
+}
+div {
+    display: block;
+}
+#wrapper {
+    width: 1280px;
+    height:486px;
+}
+
+#info {
+	float: left;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    background: #caebf2;
+    font-size: 20px
+    }
+#feed {
+	float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    background: #c4c4c4;
+    font-size: 20px
+    }
+#mySchedule {
+	float: left;
+    width: 25%;
+    height: 33%;
+    text-align: center;
+    background: #caebf2;
+    font-size: 20px
+    }
+#myTasks {
+	float: left;
+    width: 25%;
+    height: 33%;
+    text-align: center;
+    background: #caebf2;
+    font-size: 20px
+    }
+#myFinances {
+	float: left;
+    width: 25%;
+    height: 33%;
+    text-align: center;
+    background: #caebf2;
+    font-size: 20px
+    }
+
+.btn {
+	text-align: center;
+    border: 1px solid black;
+    border-color: black;
+    padding: 20px 36px;
+  	font-size: 16px;
+  	cursor: pointer;
+    background-color: #caebf2;
+}
