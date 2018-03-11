@@ -1,21 +1,13 @@
 import React from 'react';
 import './LandingPage.css';
+import TodoApp from './ToDo'
 
 const LandingPage = () => {
     return(
       
       <div id="wrapper">
         
-        <h1>Roomie</h1>
-        <h2>
-          <button class="btn home">home</button>
-          <button class="btn schedule">schedule</button>
-          <button class="btn tasks">tasks</button>
-          <button class="btn finances">finances</button>
-          <button class="btn profile">profile</button>
-        </h2>
-         
-      <div id="info">
+        <div id="info">
         <p>Info</p>
           <p>Address</p>
           <p>Phone Number </p>
@@ -28,7 +20,7 @@ const LandingPage = () => {
         <p>my schedule</p>
       </div>
       <div id="myTasks">
-        <p>my tasks</p>
+        <TodoApp/>
       </div>
       <div id="myFinances">
         <p>my finances</p>

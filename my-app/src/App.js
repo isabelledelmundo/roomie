@@ -2,10 +2,13 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import LandingPage from './LandingPage';
+import Header from './Header';
+
 
 const App = () => {
   return (
     <div className="App">
+      <Header/>
       <LandingPage/>
     </div>
   );
