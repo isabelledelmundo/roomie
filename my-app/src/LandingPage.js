@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './LandingPage.css';
 import TodoApp from './ToDo'
 
-const LandingPage = () => {
+class LandingPage extends Component{
+  render(){
     return(
       
       <div id="wrapper">
@@ -28,7 +29,9 @@ const LandingPage = () => {
   </div>
     );
 
-} 
+  }
+}
+
 
 export default LandingPage;
 // ReactDOM.render(<LandingPage />,document.getElementById('root'));
